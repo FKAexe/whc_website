@@ -1,0 +1,257 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "cta": "Get Started",
+    "mobileCta": "Get a Free Consultation →"
+  },
+  "footer": {
+    "tagline": "London-based design and build specialists for hospitality and residential projects.",
+    "nav": "Navigation",
+    "contact": "Contact",
+    "location": "London, UK",
+    "copyright": "© 2026 Workhorse Crew Ltd. All rights reserved.",
+    "registration": "Registered in England & Wales"
+  },
+  "home": {
+    "hero": {
+      "brandLabel": "Workhorse Crew — London, UK",
+      "heading": "Design & Build Specialists",
+      "subheading": "for Hospitality and Residential Projects in London",
+      "body": "From planning permission to final fit-out, we deliver high-quality refurbishments with speed, precision and full project control.",
+      "cta": "Get a Free Consultation →"
+    },
+    "about": {
+      "label": "About Us",
+      "quote": "One team. Full control. From planning permission to final fit-out — we deliver exceptional results for hospitality and residential clients across London."
+    },
+    "whyUs": {
+      "label": "Why Work With Us",
+      "card1": "7+ years of experience across UK and European markets",
+      "card2": "Specialists in pubs, restaurants and Airbnb refurbishments",
+      "card3": "In-house architects, engineers, builders and specialist trades",
+      "card4": "Fast-track delivery with minimal business downtime"
+    },
+    "process": {
+      "label": "Our Process",
+      "heading": "A Clear Process,",
+      "subheading": "From First Call to Final Handover",
+      "body": "We believe great results come from a structured approach. Here's how we work:",
+      "viewServices": "View All Services ›",
+      "step01": { "title": "Initial Call", "body": "We learn about your property, goals and budget." },
+      "step02": { "title": "Site Visit", "body": "We assess feasibility and take measurements on site." },
+      "step03": { "title": "Concept & Strategy", "body": "We define design direction and the best approach for your investment." },
+      "step04": { "title": "Design & Planning", "body": "Drawings, technical details and planning permissions managed for you." },
+      "step05": { "title": "Specification & Procurement", "body": "We source materials, finishes and furniture through trusted suppliers." },
+      "step06": { "title": "Detailed Costing", "body": "Clear, itemised quotation with no hidden costs." },
+      "step07": { "title": "Programme of Works", "body": "A detailed schedule aligned with your deadlines." },
+      "step08": { "title": "Build & Delivery", "body": "On time, on budget, to the highest standards." },
+      "quote": "\"From concept to completion — one team, one process, total control.\""
+    },
+    "stats": {
+      "stat1": "Years of Experience",
+      "stat2": "Hospitality Fit-Outs in Central London",
+      "stat3": "Residential & Airbnb Projects in the Last 12 Months",
+      "stat4": "In-House Team"
+    }
+  },
+  "about": {
+    "header": {
+      "label": "Who We Are",
+      "heading": "About Workhorse Crew Ltd",
+      "body": "A London-based design and build company specialising in hospitality and residential refurbishments."
+    },
+    "story": {
+      "label": "Our Story",
+      "heading": "We are a London-based design and build company specialising in hospitality and residential refurbishments.",
+      "body1": "With over 7 years of experience working across the UK and Spain, we combine European design standards with the technical expertise and regulatory knowledge required to deliver exceptional results in London.",
+      "body2": "Our in-house team of architects, engineers, skilled builders and specialist trades gives us the ability to manage every aspect of your project under one roof — from the first sketch to the final snag. This integrated approach means better communication, faster timelines and no costly handoff delays between separate contractors."
+    },
+    "team": {
+      "label": "Our Team",
+      "heading": "Our In-House Team",
+      "intro": "We are proud to have a fully integrated team that covers every discipline your project needs:",
+      "architects": { "title": "Architects", "body": "Design, planning and technical drawings." },
+      "engineers": { "title": "Structural Engineers", "body": "Calculations and structural solutions." },
+      "managers": { "title": "Project Managers", "body": "Programme, budget and site coordination." },
+      "builders": { "title": "Builders & Specialist Trades", "body": "High-quality execution on site." }
+    },
+    "stats": {
+      "stat1": "Years of Experience",
+      "stat2": "Hospitality Fit-Outs in Central London",
+      "stat3": "Residential & Airbnb Projects in the Last 12 Months",
+      "stat4": "In-House Team"
+    },
+    "values": {
+      "label": "Our Values",
+      "heading": "How We Work",
+      "body": "We do not believe in cutting corners, overpromising or passing problems down the line. We take full ownership of every project we accept — and we build spaces that perform, last and add real value to your property.",
+      "quote": "\"From concept to completion — one team, one process, total control.\"",
+      "cta": "Get in Touch →"
+    }
+  },
+  "services": {
+    "header": {
+      "label": "Our Services",
+      "heading": "End-to-End Construction and Refurbishment Services in London",
+      "body": "At Workhorse Crew, we manage every stage of your project in-house — from initial design and planning permissions through to construction and final fit-out. This means faster delivery, tighter cost control and one point of contact from start to finish."
+    },
+    "service01": {
+      "label": "Service 01",
+      "heading": "Design & Planning",
+      "body": "We handle the entire design and planning process, ensuring your project is compliant, efficient and ready for construction from day one.",
+      "item1": "Architectural drawings and technical documentation",
+      "item2": "Planning permission applications and management",
+      "item3": "Structural engineering calculations",
+      "item4": "Interior design and space planning"
+    },
+    "service02": {
+      "label": "Service 02",
+      "heading": "Hospitality Fit-Outs",
+      "subheading": "Pubs, Restaurants & Commercial Units",
+      "body": "We are specialists in fast, high-quality pub fit-out and restaurant refurbishment in London, built around one priority: minimising your downtime. Whether you are refurbishing a pub, a restaurant or a commercial retail unit, our in-house team coordinates every trade to keep your project on programme.",
+      "item1": "Full pub fit-out and refurbishment",
+      "item2": "Restaurant interior design and build",
+      "item3": "Commercial unit fit-out",
+      "item4": "Bar and kitchen installations",
+      "item5": "Flooring, lighting and finishing works"
+    },
+    "service03": {
+      "label": "Service 03",
+      "heading": "Residential & Airbnb",
+      "body": "We transform properties into high-value homes and high-performing rental investments. From full residential refurbishments to Airbnb property renovation in London, we deliver quality finishes on time and on budget — ideal for buy-to-let and short-term rental landlords.",
+      "item1": "Full residential refurbishments",
+      "item2": "Kitchen and bathroom renovations",
+      "item3": "Airbnb property fit-out and styling",
+      "item4": "Extensions and loft conversions",
+      "item5": "Decorating, flooring and finishing"
+    },
+    "service04": {
+      "label": "Service 04",
+      "heading": "Procurement, Logistics & Assembly",
+      "body": "One of our key differentiators is full supply chain management. We source, deliver and install everything your project needs — materials, fixtures, furniture and fittings — through our network of trusted suppliers. This turnkey fit-out service means no third-party delays, no coordination gaps, just seamless delivery from start to finish.",
+      "item1": "Material and product sourcing",
+      "item2": "Supplier and contractor management",
+      "item3": "Logistics coordination and on-site delivery",
+      "item4": "Professional installation and assembly"
+    },
+    "service05": {
+      "label": "Service 05",
+      "heading": "Maintenance & Repair",
+      "body": "Keeping your property in peak condition is just as important as the build itself. Our maintenance and repair service gives landlords, business owners and property managers a reliable, responsive team for everything from planned upkeep to urgent remedial works — all delivered to the same standard as our fit-out projects.",
+      "item1": "Planned and reactive property maintenance",
+      "item2": "Structural and cosmetic repairs",
+      "item3": "Plumbing, electrical and joinery remedials",
+      "item4": "Damp treatment and waterproofing",
+      "item5": "Redecoration and surface restoration"
+    },
+    "process": {
+      "label": "Our Process",
+      "heading": "A Clear Process,",
+      "subheading": "From First Call to Final Handover",
+      "body": "We believe great results come from a structured approach. Here's how we work:",
+      "cta": "Get a Free Consultation ›",
+      "step01": { "title": "Initial Call", "body": "We learn about your property, goals and budget." },
+      "step02": { "title": "Site Visit", "body": "We assess feasibility and take measurements on site." },
+      "step03": { "title": "Concept & Strategy", "body": "We define design direction and the best approach for your investment." },
+      "step04": { "title": "Design & Planning", "body": "Drawings, technical details and planning permissions managed for you." },
+      "step05": { "title": "Specification & Procurement", "body": "We source materials, finishes and furniture through trusted suppliers." },
+      "step06": { "title": "Detailed Costing", "body": "Clear, itemised quotation with no hidden costs." },
+      "step07": { "title": "Programme of Works", "body": "A detailed schedule aligned with your deadlines." },
+      "step08": { "title": "Build & Delivery", "body": "On time, on budget, to the highest standards." },
+      "quote": "\"From concept to completion — one team, one process, total control.\""
+    }
+  },
+  "projects": {
+    "header": {
+      "label": "Projects",
+      "heading": "Our Work Across London",
+      "body": "Every project we deliver is a reflection of our commitment to quality, efficiency and attention to detail. Below you will find a selection of recent refurbishments and fit-outs — from Central London pubs to residential properties across the city."
+    },
+    "filter": {
+      "all": "All Projects"
+    },
+    "empty": "No projects in this category yet.",
+    "meta": {
+      "type": "Type",
+      "duration": "Duration"
+    },
+    "cta": {
+      "label": "Start Your Project",
+      "heading": "Have a project in mind?",
+      "subheading": "Let's talk.",
+      "cta": "Get a Free Consultation →"
+    }
+  },
+  "contact": {
+    "header": {
+      "label": "Contact",
+      "heading": "Get in Touch",
+      "body": "Tell us about your project and we will get back to you within 24 hours."
+    },
+    "details": {
+      "label": "Direct Contact",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "whatsappCta": "Message us on WhatsApp →",
+      "email": "Email",
+      "hours": "Working Hours",
+      "hoursValue": "Monday – Friday",
+      "hoursTime": "8:00 – 18:00"
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "e.g. James Smith",
+      "nameError": "Full name is required.",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "emailError": "A valid email address is required.",
+      "projectType": "Project Type",
+      "projectTypePlaceholder": "Select a project type",
+      "projectTypeError": "Please select a project type.",
+      "projectTypeHospitality": "Hospitality Fit-Out",
+      "projectTypeResidential": "Residential Refurbishment",
+      "projectTypeAirbnb": "Airbnb Renovation",
+      "projectTypeOther": "Other",
+      "message": "Message / Project Description",
+      "messagePlaceholder": "Tell us about your project, timeline and budget...",
+      "messageError": "Please tell us about your project.",
+      "submit": "Send Message →",
+      "submitting": "Sending..."
+    },
+    "success": {
+      "label": "Message Sent",
+      "heading": "Thank you.",
+      "subheading": "We'll be in touch shortly.",
+      "body": "We've received your message and will respond within 24 hours."
+    }
+  },
+  "contactForm": {
+    "label": "Get in Touch",
+    "heading": "Ready to Start",
+    "subheading": "Your Project?",
+    "body": "Tell us about your property and we will get back to you within 24 hours.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "nameError": "Name is required.",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "emailError": "A valid email address is required.",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project, timeline and budget...",
+      "messageError": "Please tell us about your project.",
+      "submit": "Send Message →",
+      "submitting": "Sending..."
+    },
+    "success": {
+      "label": "Message Sent",
+      "heading": "Thank you.",
+      "subheading": "We'll be in touch shortly.",
+      "body": "We've received your message and will respond within 24 hours."
+    }
+  }
+}

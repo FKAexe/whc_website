@@ -1,0 +1,239 @@
+<!-- ─── JSON-LD STRUCTURED DATA ─────────────────────────────────────────── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Workhorse Crew",
+  "description": "London-based design and build specialists for hospitality and residential projects. Pub fit-outs, Airbnb renovations and full refurbishments.",
+  "url": "https://workhorsecrew.co.uk",
+  "telephone": "+447826954585",
+  "email": "enquiries@workhorsecrew.co.uk",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "London",
+    "addressCountry": "GB"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "London"
+  },
+  "openingHours": "Mo-Fr 08:00-18:00",
+  "priceRange": "££",
+  "image": "https://workhorsecrew.co.uk/images/workhorse_logo.png",
+  "sameAs": []
+}
+</script>
+
+<!-- ─── HERO ─────────────────────────────────────────────────────────────── -->
+<section class="relative h-screen bg-stone-900 overflow-hidden">
+
+  <!-- Hero image -->
+  <div class="absolute inset-0 bg-[url('/images/construction_pub_london.webp')] bg-cover bg-center"></div>
+  <!-- Dark overlay for legibility -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- Content: top label + bottom headline/CTAs -->
+  <div class="relative z-10 h-full flex flex-col justify-between pt-32 pb-32 px-12">
+
+    <!-- Bottom content -->
+    <div class="text-center md:text-left">
+      <!-- Brand label -->
+      <div class="flex items-center justify-center md:justify-start gap-2 md:mb-20 mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-white/50 inline-block"></span>
+        <span class="text-xs tracking-widest uppercase text-white/50" style="font-family: 'Inter', sans-serif;">{{ 'home.hero.brandLabel' | translate }}</span>
+      </div>
+      <!-- Mixed-weight headline -->
+      <h1 class="leading-none mb-12 text-white" style="font-family: 'Fustat', serif;">
+        <span class="block font-black" style="font-size: clamp(3.0rem, 6vw, 6rem); letter-spacing: -0.02em;">{{ 'home.hero.heading' | translate }}</span>
+        <em class="block font-extralight not-italic" style="font-size: clamp(2.0rem, 3vw, 3rem); letter-spacing: -0.02em; font-style: italic; font-family: 'Inter', sans-serif;">{{ 'home.hero.subheading' | translate }}</em>
+      </h1>
+
+      <p class="text-white text-base max-w-sm mb-10 leading-relaxed mx-auto md:mx-0" style="font-family: 'Inter', sans-serif;">
+        {{ 'home.hero.body' | translate }}
+      </p>
+
+      <!-- CTAs -->
+      <div class="flex items-center justify-center md:justify-start gap-4 flex-wrap">
+        <a href="/contact" class="flex items-center gap-2 bg-white text-black text-sm font-medium rounded-full px-8 py-4 no-underline hover:bg-neutral-100 transition-colors">
+          {{ 'home.hero.cta' | translate }}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Curved white transition into content -->
+  <div class="absolute bottom-0 left-0 right-0 z-10">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80" class="w-full block" preserveAspectRatio="none" fill="white">
+      <path d="M0,80 L0,60 C360,0 1080,0 1440,60 L1440,80 Z"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ─── WHITE CONTENT WRAPPER ────────────────────────────────────────────── -->
+<div class="bg-white">
+
+  <!-- ─── EDITORIAL ABOUT BLURB ──────────────────────────────────────────── -->
+  <section class="px-12 py-24 max-w-7xl mx-auto flex flex-col md:flex-row gap-16">
+    <!-- Left label -->
+    <div class="w-40 shrink-0 pt-1">
+      <div class="flex items-center gap-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-black inline-block"></span>
+        <span class="text-xs tracking-widest uppercase text-neutral-900" style="font-family: 'Inter', sans-serif;">{{ 'home.about.label' | translate }}</span>
+      </div>
+    </div>
+    <!-- Right: big editorial statement -->
+    <div class="flex-1">
+      <p class="text-3xl md:text-4xl font-bold text-black leading-tight" style="font-family: 'Fustat', serif;">
+        {{ 'home.about.quote' | translate }}
+      </p>
+    </div>
+  </section>
+
+  <div class="px-12"><hr class="border-neutral-200 max-w-7xl mx-auto"></div>
+
+  <!-- ─── TRUST SIGNALS ──────────────────────────────────────────────────── -->
+  <section class="px-12 py-20 max-w-7xl mx-auto">
+    <div class="flex items-center gap-2 mb-12">
+      <span class="w-1.5 h-1.5 rounded-full bg-black inline-block"></span>
+      <span class="text-xs tracking-widest uppercase text-neutral-900" style="font-family: 'Inter', sans-serif;">{{ 'home.whyUs.label' | translate }}</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- Card 1 -->
+      <div class="flex flex-col">
+        <div class="aspect-[3/4] overflow-hidden hover:scale-105 transition-transform duration-300">
+          <img src="/images/construction_entrance_london.webp" alt="7+ years experience in hospitality refurbishment - Workhorse Crew London" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <p class="pt-4 text-sm text-neutral-800 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.whyUs.card1' | translate }}</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="flex flex-col">
+        <div class="aspect-[3/4] overflow-hidden hover:scale-105 transition-transform duration-300">
+          <img src="/images/pub_construction_london_1.png" alt="Pub and restaurant fit-out specialists - Workhorse Crew London" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <p class="pt-4 text-sm text-neutral-800 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.whyUs.card2' | translate }}</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="flex flex-col">
+        <div class="aspect-[3/4] overflow-hidden hover:scale-105 transition-transform duration-300">
+          <img src="/images/construction_outside_london.webp" alt="In-house residential refurbishment team - Workhorse Crew London" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <p class="pt-4 text-sm text-neutral-800 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.whyUs.card3' | translate }}</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="flex flex-col">
+        <div class="aspect-[3/4] overflow-hidden hover:scale-105 transition-transform duration-300">
+          <img src="/images/airbnb_construction_london_1.png" alt="Fast-track construction delivery - Workhorse Crew London" class="w-full h-full object-cover" loading="lazy">
+        </div>
+        <p class="pt-4 text-sm text-neutral-800 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.whyUs.card4' | translate }}</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="px-12"><hr class="border-neutral-200 max-w-7xl mx-auto"></div>
+
+  <!-- ─── PROCESS ────────────────────────────────────────────────────────── -->
+  <section class="px-12 py-24 max-w-7xl mx-auto">
+    <!-- Header row -->
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-16">
+      <div>
+        <div class="flex items-center gap-2 mb-5">
+          <span class="w-1.5 h-1.5 rounded-full bg-black inline-block"></span>
+          <span class="text-xs tracking-widest uppercase text-neutral-900" style="font-family: 'Inter', sans-serif;">{{ 'home.process.label' | translate }}</span>
+        </div>
+        <h2 style="font-family: 'Fustat', serif; font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.1;" class="font-black text-black max-w-xl">
+          {{ 'home.process.heading' | translate }}<br>
+          <em class="font-extralight" style="font-style: italic; font-family: 'Inter', sans-serif;">{{ 'home.process.subheading' | translate }}</em>
+        </h2>
+        <p class="text-neutral-500 mt-5 mb-8 max-w-sm text-sm leading-relaxed" style="font-family: 'Inter', sans-serif;">
+          {{ 'home.process.body' | translate }}
+        </p>
+      </div>
+      <a href="/services" class="flex sm:w-80 items-center justify-center gap-2 border border-black text-black text-sm rounded-full px-6 py-3 no-underline hover:bg-black hover:text-white transition-all duration-200 shrink-0" style="font-family: 'Inter', sans-serif;">
+        {{ 'home.process.viewServices' | translate }}
+      </a>
+    </div>
+
+    <!-- 2×4 steps grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8">
+      <div class="border-t border-neutral-200 pt-6 pb-10">
+        <span class="block text-xs tracking-widest text-neutral-300 mb-3" style="font-family: 'Inter', sans-serif;">01</span>
+        <h3 class="font-bold text-sm mb-2 text-black" style="font-family: 'Fustat', serif;">{{ 'home.process.step01.title' | translate }}</h3>
+        <p class="text-sm text-neutral-500 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.process.step01.body' | translate }}</p>
+      </div>
+      <div class="border-t border-neutral-200 pt-6 pb-10">
+        <span class="block text-xs tracking-widest text-neutral-300 mb-3" style="font-family: 'Inter', sans-serif;">02</span>
+        <h3 class="font-bold text-sm mb-2 text-black" style="font-family: 'Fustat', serif;">{{ 'home.process.step02.title' | translate }}</h3>
+        <p class="text-sm text-neutral-500 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.process.step02.body' | translate }}</p>
+      </div>
+      <div class="border-t border-neutral-200 pt-6 pb-10">
+        <span class="block text-xs tracking-widest text-neutral-300 mb-3" style="font-family: 'Inter', sans-serif;">03</span>
+        <h3 class="font-bold text-sm mb-2 text-black" style="font-family: 'Fustat', serif;">{{ 'home.process.step03.title' | translate }}</h3>
+        <p class="text-sm text-neutral-500 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.process.step03.body' | translate }}</p>
+      </div>
+      <div class="border-t border-neutral-200 pt-6 pb-10">
+        <span class="block text-xs tracking-widest text-neutral-300 mb-3" style="font-family: 'Inter', sans-serif;">04</span>
+        <h3 class="font-bold text-sm mb-2 text-black" style="font-family: 'Fustat', serif;">{{ 'home.process.step04.title' | translate }}</h3>
+        <p class="text-sm text-neutral-500 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.process.step04.body' | translate }}</p>
+      </div>
+      <div class="border-t border-neutral-200 pt-6 pb-10">
+        <span class="block text-xs tracking-widest text-neutral-300 mb-3" style="font-family: 'Inter', sans-serif;">05</span>
+        <h3 class="font-bold text-sm mb-2 text-black" style="font-family: 'Fustat', serif;">{{ 'home.process.step05.title' | translate }}</h3>
+        <p class="text-sm text-neutral-500 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.process.step05.body' | translate }}</p>
+      </div>
+      <div class="border-t border-neutral-200 pt-6 pb-10">
+        <span class="block text-xs tracking-widest text-neutral-300 mb-3" style="font-family: 'Inter', sans-serif;">06</span>
+        <h3 class="font-bold text-sm mb-2 text-black" style="font-family: 'Fustat', serif;">{{ 'home.process.step06.title' | translate }}</h3>
+        <p class="text-sm text-neutral-500 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.process.step06.body' | translate }}</p>
+      </div>
+      <div class="border-t border-neutral-200 pt-6 pb-10">
+        <span class="block text-xs tracking-widest text-neutral-300 mb-3" style="font-family: 'Inter', sans-serif;">07</span>
+        <h3 class="font-bold text-sm mb-2 text-black" style="font-family: 'Fustat', serif;">{{ 'home.process.step07.title' | translate }}</h3>
+        <p class="text-sm text-neutral-500 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.process.step07.body' | translate }}</p>
+      </div>
+      <div class="border-t border-neutral-200 pt-6 pb-10">
+        <span class="block text-xs tracking-widest text-neutral-300 mb-3" style="font-family: 'Inter', sans-serif;">08</span>
+        <h3 class="font-bold text-sm mb-2 text-black" style="font-family: 'Fustat', serif;">{{ 'home.process.step08.title' | translate }}</h3>
+        <p class="text-sm text-neutral-500 leading-relaxed" style="font-family: 'Inter', sans-serif;">{{ 'home.process.step08.body' | translate }}</p>
+      </div>
+    </div>
+
+    <!-- Quote -->
+    <div class="border-t border-neutral-200 pt-8">
+      <p class="text-lg text-neutral-500 italic" style="font-family: 'Inter', sans-serif;">
+        {{ 'home.process.quote' | translate }}
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── STATS BAR ──────────────────────────────────────────────────────── -->
+  <section class="relative bg-[url('/images/restaurant_3.jpg')] bg-cover bg-center py-20 px-12">
+    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="relative z-10 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+      <div>
+        <p class="text-white font-black mb-2" style="font-family: 'Fustat', serif; font-size: clamp(2.5rem, 5vw, 4rem);">7+</p>
+        <p class="text-neutral-100 text-xs tracking-widest uppercase" style="font-family: 'Inter', sans-serif;">{{ 'home.stats.stat1' | translate }}</p>
+      </div>
+      <div>
+        <p class="text-white font-black mb-2" style="font-family: 'Fustat', serif; font-size: clamp(2.5rem, 5vw, 4rem);">7</p>
+        <p class="text-neutral-100 text-xs tracking-widest uppercase" style="font-family: 'Inter', sans-serif;">{{ 'home.stats.stat2' | translate }}</p>
+      </div>
+      <div>
+        <p class="text-white font-black mb-2" style="font-family: 'Fustat', serif; font-size: clamp(2.5rem, 5vw, 4rem);">12</p>
+        <p class="text-neutral-100 text-xs tracking-widest uppercase" style="font-family: 'Inter', sans-serif;">{{ 'home.stats.stat3' | translate }}</p>
+      </div>
+      <div>
+        <p class="text-white font-black mb-2" style="font-family: 'Fustat', serif; font-size: clamp(2.5rem, 5vw, 4rem);">100%</p>
+        <p class="text-neutral-100 text-xs tracking-widest uppercase" style="font-family: 'Inter', sans-serif;">{{ 'home.stats.stat4' | translate }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT FORM ────────────────────────────────────────────────────── -->
+  <app-contact-form></app-contact-form>
+
+</div>

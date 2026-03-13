@@ -1,0 +1,199 @@
+<!-- ─── PAGE HEADER ───────────────────────────────────────────────────────── -->
+<section class="relative overflow-hidden pt-40 pb-28 px-6 md:px-12">
+  <div class="absolute inset-0 bg-[url('/images/airbnb_construction_2_london.webp')] bg-cover bg-center"></div>
+  <div class="absolute inset-0 bg-black/65"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto">
+    <div class="flex items-center gap-2 mb-6">
+      <span class="w-1.5 h-1.5 rounded-full bg-white/50 inline-block"></span>
+      <span class="text-xs tracking-widest uppercase text-white/50" style="font-family: 'Inter', sans-serif;">{{ 'contact.header.label' | translate }}</span>
+    </div>
+    <h1 class="text-white leading-none max-w-xl mb-4"
+        style="font-family: 'Fustat', serif; font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 900; letter-spacing: -0.02em;">
+      {{ 'contact.header.heading' | translate }}
+    </h1>
+    <p class="text-white/70 text-sm max-w-md leading-relaxed" style="font-family: 'Inter', sans-serif;">
+      {{ 'contact.header.body' | translate }}
+    </p>
+  </div>
+
+  <!-- Curved white transition -->
+  <div class="absolute bottom-0 left-0 right-0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80" class="w-full block" preserveAspectRatio="none" fill="white">
+      <path d="M0,80 L0,60 C360,0 1080,0 1440,60 L1440,80 Z"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ─── WHITE CONTENT WRAPPER ────────────────────────────────────────────── -->
+<div class="bg-white">
+  <section class="px-6 md:px-12 py-24 max-w-7xl mx-auto">
+    <div class="flex flex-col lg:flex-row gap-16 lg:gap-24">
+
+      <!-- ─── CONTACT DETAILS ─────────────────────────────────────────────── -->
+      <div class="w-full lg:w-80 shrink-0">
+        <div class="flex items-center gap-2 mb-8">
+          <span class="w-1.5 h-1.5 rounded-full bg-black inline-block"></span>
+          <span class="text-xs tracking-widest uppercase text-neutral-400" style="font-family: 'Inter', sans-serif;">{{ 'contact.details.label' | translate }}</span>
+        </div>
+
+        <div class="flex flex-col gap-8">
+          <!-- Phone -->
+          <div>
+            <p class="text-[0.65rem] tracking-widest uppercase text-neutral-400 mb-2" style="font-family: 'Inter', sans-serif;">{{ 'contact.details.phone' | translate }}</p>
+            <a href="tel:+447826954585"
+               class="text-black text-sm no-underline hover:opacity-60 transition-opacity"
+               style="font-family: 'Inter', sans-serif;">
+              +44 78 2695 4585
+            </a>
+          </div>
+
+          <!-- WhatsApp -->
+          <div>
+            <p class="text-[0.65rem] tracking-widest uppercase text-neutral-400 mb-2" style="font-family: 'Inter', sans-serif;">{{ 'contact.details.whatsapp' | translate }}</p>
+            <a href="https://wa.me/447826954585"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-black text-sm no-underline hover:opacity-60 transition-opacity"
+               style="font-family: 'Inter', sans-serif;">
+              {{ 'contact.details.whatsappCta' | translate }}
+            </a>
+          </div>
+
+          <!-- Email -->
+          <div>
+            <p class="text-[0.65rem] tracking-widest uppercase text-neutral-400 mb-2" style="font-family: 'Inter', sans-serif;">{{ 'contact.details.email' | translate }}</p>
+            <a href="mailto:enquiries@workhorsecrew.co.uk"
+               class="text-black text-sm no-underline hover:opacity-60 transition-opacity"
+               style="font-family: 'Inter', sans-serif;">
+              enquiries&#64;workhorsecrew.co.uk
+            </a>
+          </div>
+
+          <!-- Hours -->
+          <div>
+            <p class="text-[0.65rem] tracking-widest uppercase text-neutral-400 mb-2" style="font-family: 'Inter', sans-serif;">{{ 'contact.details.hours' | translate }}</p>
+            <p class="text-black text-sm" style="font-family: 'Inter', sans-serif;">{{ 'contact.details.hoursValue' | translate }}</p>
+            <p class="text-neutral-500 text-sm" style="font-family: 'Inter', sans-serif;">{{ 'contact.details.hoursTime' | translate }}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── CONTACT FORM ───────────────────────────────────────────────── -->
+      <div class="flex-1">
+
+        @if (submitted) {
+          <!-- Success state -->
+          <div class="py-16 flex flex-col items-start gap-4">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-black inline-block"></span>
+              <span class="text-xs tracking-widest uppercase text-neutral-400" style="font-family: 'Inter', sans-serif;">{{ 'contact.success.label' | translate }}</span>
+            </div>
+            <h2 class="font-black text-black leading-tight"
+                style="font-family: 'Fustat', serif; font-size: clamp(1.8rem, 3vw, 2.5rem);">
+              {{ 'contact.success.heading' | translate }}<br>
+              <em class="font-extralight" style="font-style: italic; font-family: 'Inter', sans-serif;">{{ 'contact.success.subheading' | translate }}</em>
+            </h2>
+            <p class="text-neutral-500 text-sm leading-relaxed max-w-md" style="font-family: 'Inter', sans-serif;">
+              {{ 'contact.success.body' | translate }}
+            </p>
+          </div>
+
+        } @else {
+
+          <form [formGroup]="form" (ngSubmit)="onSubmit()" class="flex flex-col gap-8" novalidate>
+
+            <!-- Honeypot (hidden spam trap) -->
+            <input type="text" formControlName="honeypot" class="hidden" tabindex="-1" autocomplete="off">
+
+            <!-- Full Name + Email -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="flex flex-col gap-2">
+                <label class="text-xs tracking-widest uppercase text-neutral-400" style="font-family: 'Inter', sans-serif;">
+                  {{ 'contact.form.name' | translate }} <span class="text-black">*</span>
+                </label>
+                <input
+                  type="text"
+                  formControlName="name"
+                  [placeholder]="'contact.form.namePlaceholder' | translate"
+                  [class]="'border-b py-3 text-sm outline-none transition-colors duration-200 bg-transparent placeholder:text-neutral-300 ' + (isInvalid('name') ? 'border-red-400' : 'border-neutral-200 focus:border-black')"
+                  style="font-family: 'Inter', sans-serif;">
+                @if (isInvalid('name')) {
+                  <span class="text-xs text-red-400" style="font-family: 'Inter', sans-serif;">{{ 'contact.form.nameError' | translate }}</span>
+                }
+              </div>
+              <div class="flex flex-col gap-2">
+                <label class="text-xs tracking-widest uppercase text-neutral-400" style="font-family: 'Inter', sans-serif;">
+                  {{ 'contact.form.email' | translate }} <span class="text-black">*</span>
+                </label>
+                <input
+                  type="email"
+                  formControlName="email"
+                  [placeholder]="'contact.form.emailPlaceholder' | translate"
+                  [class]="'border-b py-3 text-sm outline-none transition-colors duration-200 bg-transparent placeholder:text-neutral-300 ' + (isInvalid('email') ? 'border-red-400' : 'border-neutral-200 focus:border-black')"
+                  style="font-family: 'Inter', sans-serif;">
+                @if (isInvalid('email')) {
+                  <span class="text-xs text-red-400" style="font-family: 'Inter', sans-serif;">{{ 'contact.form.emailError' | translate }}</span>
+                }
+              </div>
+            </div>
+
+            <!-- Project Type -->
+            <div class="flex flex-col gap-2">
+              <label class="text-xs tracking-widest uppercase text-neutral-400" style="font-family: 'Inter', sans-serif;">
+                {{ 'contact.form.projectType' | translate }} <span class="text-black">*</span>
+              </label>
+              <select
+                formControlName="projectType"
+                [class]="selectClass"
+                style="font-family: 'Inter', sans-serif;">
+                <option value="" disabled selected>{{ 'contact.form.projectTypePlaceholder' | translate }}</option>
+                <option value="hospitality">{{ 'contact.form.projectTypeHospitality' | translate }}</option>
+                <option value="residential">{{ 'contact.form.projectTypeResidential' | translate }}</option>
+                <option value="airbnb">{{ 'contact.form.projectTypeAirbnb' | translate }}</option>
+                <option value="other">{{ 'contact.form.projectTypeOther' | translate }}</option>
+              </select>
+              @if (isInvalid('projectType')) {
+                <span class="text-xs text-red-400" style="font-family: 'Inter', sans-serif;">{{ 'contact.form.projectTypeError' | translate }}</span>
+              }
+            </div>
+
+            <!-- Message -->
+            <div class="flex flex-col gap-2">
+              <label class="text-xs tracking-widest uppercase text-neutral-400" style="font-family: 'Inter', sans-serif;">
+                {{ 'contact.form.message' | translate }} <span class="text-black">*</span>
+              </label>
+              <textarea
+                formControlName="message"
+                rows="5"
+                [placeholder]="'contact.form.messagePlaceholder' | translate"
+                [class]="'border-b py-3 text-sm outline-none transition-colors duration-200 bg-transparent resize-none placeholder:text-neutral-300 ' + (isInvalid('message') ? 'border-red-400' : 'border-neutral-200 focus:border-black')"
+                style="font-family: 'Inter', sans-serif;">
+              </textarea>
+              @if (isInvalid('message')) {
+                <span class="text-xs text-red-400" style="font-family: 'Inter', sans-serif;">{{ 'contact.form.messageError' | translate }}</span>
+              }
+            </div>
+
+            <!-- Submit -->
+            <div class="flex flex-col gap-4">
+              <button
+                type="submit"
+                [disabled]="loading()"
+                class="self-start flex items-center gap-3 bg-black text-white text-sm font-medium rounded-full px-10 py-4 hover:bg-neutral-800 transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                style="font-family: 'Inter', sans-serif;">
+                {{ loading() ? ('contact.form.submitting' | translate) : ('contact.form.submit' | translate) }}
+              </button>
+              @if (error()) {
+                <p class="text-sm text-red-400" style="font-family: 'Inter', sans-serif;">{{ error() }}</p>
+              }
+            </div>
+
+          </form>
+
+        }
+      </div>
+
+    </div>
+  </section>
+</div>

@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "dist/whc_website/browser"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# Route the contact API to the Netlify Function
+[[redirects]]
+  from = "/api/contact"
+  to = "/.netlify/functions/contact"
+  status = 200
+
+# SPA fallback — serves index.html for all routes Angular handles
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

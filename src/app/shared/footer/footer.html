@@ -1,0 +1,47 @@
+<footer class="bg-black text-white px-6 md:px-12 py-12 md:py-16">
+  <div class="max-w-7xl mx-auto">
+
+    <!-- Top row: stacks on mobile, row on desktop -->
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-10 pb-10 border-b border-white/10">
+
+      <!-- Logo + tagline -->
+      <div>
+        <p class="font-bold tracking-[0.2em] text-[0.7rem] uppercase leading-snug mb-3" style="font-family: 'Fustat', serif;">
+          Workhorse<br>Crew
+        </p>
+        <p class="text-white/40 text-xs leading-relaxed max-w-xs" style="font-family: 'Inter', sans-serif;">
+          {{ 'footer.tagline' | translate }}
+        </p>
+      </div>
+
+      <!-- Nav + Contact: side by side on mobile, separate on desktop -->
+      <div class="flex gap-12 md:contents">
+
+        <!-- Nav links -->
+        <nav class="flex flex-col gap-3">
+          <span class="text-xs tracking-widest uppercase text-white/30 mb-1" style="font-family: 'Inter', sans-serif;">{{ 'footer.nav' | translate }}</span>
+          <a routerLink="/projects" class="text-white/60 text-sm no-underline hover:text-white transition-colors" style="font-family: 'Inter', sans-serif;">{{ 'nav.projects' | translate }}</a>
+          <a routerLink="/services" class="text-white/60 text-sm no-underline hover:text-white transition-colors" style="font-family: 'Inter', sans-serif;">{{ 'nav.services' | translate }}</a>
+          <a routerLink="/about" class="text-white/60 text-sm no-underline hover:text-white transition-colors" style="font-family: 'Inter', sans-serif;">{{ 'nav.about' | translate }}</a>
+          <a routerLink="/contact" class="text-white/60 text-sm no-underline hover:text-white transition-colors" style="font-family: 'Inter', sans-serif;">{{ 'nav.contact' | translate }}</a>
+        </nav>
+
+        <!-- Contact info -->
+        <div class="flex flex-col gap-2 text-sm md:text-right">
+          <span class="text-xs tracking-widest uppercase text-white/30 mb-1" style="font-family: 'Inter', sans-serif;">{{ 'footer.contact' | translate }}</span>
+          <p class="text-white/60" style="font-family: 'Inter', sans-serif;">{{ 'footer.location' | translate }}</p>
+          <a href="mailto:enquiries@workhorsecrew.co.uk" class="text-white/60 no-underline hover:text-white transition-colors" style="font-family: 'Inter', sans-serif;">enquiries&#64;workhorsecrew.co.uk</a>
+          <a href="tel:+447826954585" class="text-white/60 no-underline hover:text-white transition-colors" style="font-family: 'Inter', sans-serif;">+44 78 2695 4585</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom row: stacks on mobile -->
+    <div class="pt-8 flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+      <p class="text-white/25 text-xs" style="font-family: 'Inter', sans-serif;">{{ 'footer.copyright' | translate }}</p>
+      <p class="text-white/25 text-xs" style="font-family: 'Inter', sans-serif;">{{ 'footer.registration' | translate }}</p>
+    </div>
+
+  </div>
+</footer>

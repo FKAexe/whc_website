@@ -1,0 +1,257 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "services": "Servicios",
+    "about": "Quiénes Somos",
+    "contact": "Contacto",
+    "cta": "Comenzar",
+    "mobileCta": "Consulta Gratuita →"
+  },
+  "footer": {
+    "tagline": "Especialistas en diseño y construcción para proyectos de hostelería y residenciales en Londres.",
+    "nav": "Navegación",
+    "contact": "Contacto",
+    "location": "Londres, Reino Unido",
+    "copyright": "© 2026 Workhorse Crew Ltd. Todos los derechos reservados.",
+    "registration": "Registrada en Inglaterra y Gales"
+  },
+  "home": {
+    "hero": {
+      "brandLabel": "Workhorse Crew — Londres, Reino Unido",
+      "heading": "Especialistas en Diseño y Construcción",
+      "subheading": "Proyectos de Hostelería y Residenciales en Londres",
+      "body": "Desde los permisos de obras hasta el acabado final, entregamos reformas de alta calidad con rapidez, precisión y control total del proyecto.",
+      "cta": "Consulta Gratuita →"
+    },
+    "about": {
+      "label": "Quiénes Somos",
+      "quote": "Un equipo. Control total. Desde los permisos de obras hasta el acabado final — entregamos resultados excepcionales para clientes de hostelería y residenciales en todo Londres."
+    },
+    "whyUs": {
+      "label": "Por Qué Trabajar Con Nosotros",
+      "card1": "Más de 7 años de experiencia en mercados del Reino Unido y Europa",
+      "card2": "Especialistas en reformas de pubs, restaurantes y Airbnb",
+      "card3": "Arquitectos, ingenieros, constructores y oficios especializados propios",
+      "card4": "Entrega acelerada con mínima interrupción del negocio"
+    },
+    "process": {
+      "label": "Nuestro Proceso",
+      "heading": "Un Proceso Claro,",
+      "subheading": "Desde la Primera Llamada hasta la Entrega Final",
+      "body": "Creemos que los grandes resultados vienen de un enfoque estructurado. Así es como trabajamos:",
+      "viewServices": "Ver Todos los Servicios ›",
+      "step01": { "title": "Llamada Inicial", "body": "Conocemos su propiedad, objetivos y presupuesto." },
+      "step02": { "title": "Visita al Lugar", "body": "Evaluamos la viabilidad y tomamos medidas en el lugar." },
+      "step03": { "title": "Concepto y Estrategia", "body": "Definimos la dirección de diseño y el mejor enfoque para su inversión." },
+      "step04": { "title": "Diseño y Planificación", "body": "Planos, detalles técnicos y permisos de obras gestionados para usted." },
+      "step05": { "title": "Especificación y Aprovisionamiento", "body": "Obtenemos materiales, acabados y mobiliario a través de proveedores de confianza." },
+      "step06": { "title": "Coste Detallado", "body": "Presupuesto claro y detallado sin costes ocultos." },
+      "step07": { "title": "Programa de Obras", "body": "Un calendario detallado alineado con sus plazos." },
+      "step08": { "title": "Construcción y Entrega", "body": "A tiempo, dentro del presupuesto y con los más altos estándares." },
+      "quote": "\"Del concepto a la entrega — un equipo, un proceso, control total.\""
+    },
+    "stats": {
+      "stat1": "Años de Experiencia",
+      "stat2": "Instalaciones de Hostelería en el Centro de Londres",
+      "stat3": "Proyectos Residenciales y Airbnb en los Últimos 12 Meses",
+      "stat4": "Equipo Propio"
+    }
+  },
+  "about": {
+    "header": {
+      "label": "Quiénes Somos",
+      "heading": "Sobre Workhorse Crew Ltd",
+      "body": "Una empresa de diseño y construcción con sede en Londres especializada en reformas de hostelería y residenciales."
+    },
+    "story": {
+      "label": "Nuestra Historia",
+      "heading": "Somos una empresa de diseño y construcción con sede en Londres especializada en reformas de hostelería y residenciales.",
+      "body1": "Con más de 7 años de experiencia trabajando en el Reino Unido y España, combinamos los estándares de diseño europeos con la experiencia técnica y el conocimiento regulatorio necesarios para entregar resultados excepcionales en Londres.",
+      "body2": "Nuestro equipo propio de arquitectos, ingenieros, constructores cualificados y oficios especializados nos permite gestionar cada aspecto de su proyecto bajo un mismo techo — desde el primer boceto hasta el control final. Este enfoque integrado significa mejor comunicación, plazos más rápidos y sin costosos retrasos por traspasos entre contratistas."
+    },
+    "team": {
+      "label": "Nuestro Equipo",
+      "heading": "Nuestro Equipo Propio",
+      "intro": "Estamos orgullosos de contar con un equipo completamente integrado que cubre todas las disciplinas que necesita su proyecto:",
+      "architects": { "title": "Arquitectos", "body": "Diseño, planificación y planos técnicos." },
+      "engineers": { "title": "Ingenieros Estructurales", "body": "Cálculos y soluciones estructurales." },
+      "managers": { "title": "Gestores de Proyecto", "body": "Programa, presupuesto y coordinación en obra." },
+      "builders": { "title": "Constructores y Oficios Especializados", "body": "Ejecución de alta calidad en obra." }
+    },
+    "stats": {
+      "stat1": "Años de Experiencia",
+      "stat2": "Instalaciones de Hostelería en el Centro de Londres",
+      "stat3": "Proyectos Residenciales y Airbnb en los Últimos 12 Meses",
+      "stat4": "Equipo Propio"
+    },
+    "values": {
+      "label": "Nuestros Valores",
+      "heading": "Cómo Trabajamos",
+      "body": "No creemos en tomar atajos, prometer de más o trasladar los problemas. Asumimos la plena responsabilidad de cada proyecto que aceptamos — y construimos espacios que rinden, duran y añaden valor real a su propiedad.",
+      "quote": "\"Del concepto a la entrega — un equipo, un proceso, control total.\"",
+      "cta": "Contactar →"
+    }
+  },
+  "services": {
+    "header": {
+      "label": "Nuestros Servicios",
+      "heading": "Servicios de Construcción y Reforma Integrales en Londres",
+      "body": "En Workhorse Crew, gestionamos cada etapa de su proyecto internamente — desde el diseño inicial y los permisos de obras hasta la construcción y el acabado final. Esto significa una entrega más rápida, un control de costes más estricto y un único punto de contacto de principio a fin."
+    },
+    "service01": {
+      "label": "Servicio 01",
+      "heading": "Diseño y Planificación",
+      "body": "Gestionamos todo el proceso de diseño y planificación, asegurando que su proyecto cumpla la normativa, sea eficiente y esté listo para la construcción desde el primer día.",
+      "item1": "Planos arquitectónicos y documentación técnica",
+      "item2": "Solicitudes y gestión de permisos de obras",
+      "item3": "Cálculos de ingeniería estructural",
+      "item4": "Diseño de interiores y planificación de espacios"
+    },
+    "service02": {
+      "label": "Servicio 02",
+      "heading": "Instalaciones de Hostelería",
+      "subheading": "Pubs, Restaurantes y Locales Comerciales",
+      "body": "Somos especialistas en instalaciones de pubs y restaurantes rápidas y de alta calidad en Londres, con una prioridad: minimizar su tiempo de inactividad. Tanto si reforma un pub, un restaurante o un local comercial, nuestro equipo propio coordina todos los oficios para mantener su proyecto en programa.",
+      "item1": "Instalación y reforma completa de pubs",
+      "item2": "Diseño y construcción de interiores de restaurantes",
+      "item3": "Acondicionamiento de locales comerciales",
+      "item4": "Instalaciones de barra y cocina",
+      "item5": "Suelos, iluminación y trabajos de acabado"
+    },
+    "service03": {
+      "label": "Servicio 03",
+      "heading": "Residencial y Airbnb",
+      "body": "Transformamos propiedades en hogares de alto valor e inversiones de alquiler de alto rendimiento. Desde reformas residenciales completas hasta renovaciones de propiedades Airbnb en Londres, entregamos acabados de calidad a tiempo y dentro del presupuesto — ideal para propietarios de alquiler a largo y corto plazo.",
+      "item1": "Reformas residenciales completas",
+      "item2": "Reformas de cocina y baño",
+      "item3": "Acondicionamiento y decoración de propiedades Airbnb",
+      "item4": "Ampliaciones y conversiones de buhardilla",
+      "item5": "Decoración, suelos y acabados"
+    },
+    "service04": {
+      "label": "Servicio 04",
+      "heading": "Aprovisionamiento, Logística y Montaje",
+      "body": "Uno de nuestros diferenciadores clave es la gestión completa de la cadena de suministro. Obtenemos, entregamos e instalamos todo lo que necesita su proyecto — materiales, accesorios, mobiliario y equipamiento — a través de nuestra red de proveedores de confianza. Este servicio llave en mano significa sin retrasos de terceros, sin lagunas de coordinación, solo una entrega fluida de principio a fin.",
+      "item1": "Obtención de materiales y productos",
+      "item2": "Gestión de proveedores y contratistas",
+      "item3": "Coordinación logística y entrega en obra",
+      "item4": "Instalación y montaje profesional"
+    },
+    "service05": {
+      "label": "Servicio 05",
+      "heading": "Mantenimiento y Reparación",
+      "body": "Mantener su propiedad en óptimas condiciones es tan importante como la propia construcción. Nuestro servicio de mantenimiento y reparación ofrece a propietarios, empresarios y gestores de propiedades un equipo fiable y receptivo para todo, desde el mantenimiento programado hasta las obras correctivas urgentes — todo entregado con el mismo estándar que nuestros proyectos de instalación.",
+      "item1": "Mantenimiento de propiedades planificado y reactivo",
+      "item2": "Reparaciones estructurales y estéticas",
+      "item3": "Reparaciones de fontanería, electricidad y carpintería",
+      "item4": "Tratamiento de humedades e impermeabilización",
+      "item5": "Repintado y restauración de superficies"
+    },
+    "process": {
+      "label": "Nuestro Proceso",
+      "heading": "Un Proceso Claro,",
+      "subheading": "Desde la Primera Llamada hasta la Entrega Final",
+      "body": "Creemos que los grandes resultados vienen de un enfoque estructurado. Así es como trabajamos:",
+      "cta": "Consulta Gratuita ›",
+      "step01": { "title": "Llamada Inicial", "body": "Conocemos su propiedad, objetivos y presupuesto." },
+      "step02": { "title": "Visita al Lugar", "body": "Evaluamos la viabilidad y tomamos medidas en el lugar." },
+      "step03": { "title": "Concepto y Estrategia", "body": "Definimos la dirección de diseño y el mejor enfoque para su inversión." },
+      "step04": { "title": "Diseño y Planificación", "body": "Planos, detalles técnicos y permisos de obras gestionados para usted." },
+      "step05": { "title": "Especificación y Aprovisionamiento", "body": "Obtenemos materiales, acabados y mobiliario a través de proveedores de confianza." },
+      "step06": { "title": "Coste Detallado", "body": "Presupuesto claro y detallado sin costes ocultos." },
+      "step07": { "title": "Programa de Obras", "body": "Un calendario detallado alineado con sus plazos." },
+      "step08": { "title": "Construcción y Entrega", "body": "A tiempo, dentro del presupuesto y con los más altos estándares." },
+      "quote": "\"Del concepto a la entrega — un equipo, un proceso, control total.\""
+    }
+  },
+  "projects": {
+    "header": {
+      "label": "Proyectos",
+      "heading": "Nuestro Trabajo en Londres",
+      "body": "Cada proyecto que entregamos refleja nuestro compromiso con la calidad, la eficiencia y la atención al detalle. A continuación encontrará una selección de reformas e instalaciones recientes — desde pubs en el centro de Londres hasta propiedades residenciales en toda la ciudad."
+    },
+    "filter": {
+      "all": "Todos los Proyectos"
+    },
+    "empty": "No hay proyectos en esta categoría todavía.",
+    "meta": {
+      "type": "Tipo",
+      "duration": "Duración"
+    },
+    "cta": {
+      "label": "Inicia Tu Proyecto",
+      "heading": "¿Tienes un proyecto en mente?",
+      "subheading": "Hablemos.",
+      "cta": "Consulta Gratuita →"
+    }
+  },
+  "contact": {
+    "header": {
+      "label": "Contacto",
+      "heading": "Contactar",
+      "body": "Cuéntenos su proyecto y le responderemos en menos de 24 horas."
+    },
+    "details": {
+      "label": "Contacto Directo",
+      "phone": "Teléfono",
+      "whatsapp": "WhatsApp",
+      "whatsappCta": "Escríbenos por WhatsApp →",
+      "email": "Correo Electrónico",
+      "hours": "Horario de Trabajo",
+      "hoursValue": "Lunes – Viernes",
+      "hoursTime": "8:00 – 18:00"
+    },
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Ej. Juan García",
+      "nameError": "El nombre completo es obligatorio.",
+      "email": "Dirección de Correo Electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "emailError": "Se requiere una dirección de correo electrónico válida.",
+      "projectType": "Tipo de Proyecto",
+      "projectTypePlaceholder": "Selecciona el tipo de proyecto",
+      "projectTypeError": "Por favor, selecciona el tipo de proyecto.",
+      "projectTypeHospitality": "Instalación de Hostelería",
+      "projectTypeResidential": "Reforma Residencial",
+      "projectTypeAirbnb": "Renovación Airbnb",
+      "projectTypeOther": "Otro",
+      "message": "Mensaje / Descripción del Proyecto",
+      "messagePlaceholder": "Cuéntenos sobre su proyecto, plazos y presupuesto...",
+      "messageError": "Por favor, cuéntenos sobre su proyecto.",
+      "submit": "Enviar Mensaje →",
+      "submitting": "Enviando..."
+    },
+    "success": {
+      "label": "Mensaje Enviado",
+      "heading": "Gracias.",
+      "subheading": "Nos pondremos en contacto pronto.",
+      "body": "Hemos recibido su mensaje y responderemos en menos de 24 horas."
+    }
+  },
+  "contactForm": {
+    "label": "Contactar",
+    "heading": "Listo para Comenzar",
+    "subheading": "¿Tu Proyecto?",
+    "body": "Cuéntenos sobre su propiedad y le responderemos en menos de 24 horas.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "nameError": "El nombre es obligatorio.",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "emailError": "Se requiere una dirección de correo electrónico válida.",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntenos sobre su proyecto, plazos y presupuesto...",
+      "messageError": "Por favor, cuéntenos sobre su proyecto.",
+      "submit": "Enviar Mensaje →",
+      "submitting": "Enviando..."
+    },
+    "success": {
+      "label": "Mensaje Enviado",
+      "heading": "Gracias.",
+      "subheading": "Nos pondremos en contacto pronto.",
+      "body": "Hemos recibido su mensaje y responderemos en menos de 24 horas."
+    }
+  }
+}
