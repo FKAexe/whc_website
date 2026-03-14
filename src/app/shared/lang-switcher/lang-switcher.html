@@ -1,17 +1,17 @@
-<div class="flex items-center gap-1 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1.5">
+<div class="inline-flex items-center gap-1.5 bg-white/90 backdrop-blur-sm rounded-full px-4 py-2 md:px-3 md:py-1.5">
   <button
     (click)="setLang('en')"
     [class]="currentLang === 'en'
-      ? 'text-[0.7rem] font-semibold text-black cursor-pointer border-none bg-transparent'
-      : 'text-[0.7rem] font-normal text-black/40 hover:text-black/70 cursor-pointer border-none bg-transparent transition-colors'">
+      ? 'text-sm md:text-[0.7rem] font-semibold text-black cursor-pointer border-none bg-transparent'
+      : 'text-sm md:text-[0.7rem] font-normal text-black/40 hover:text-black/70 cursor-pointer border-none bg-transparent transition-colors'">
     EN
   </button>
-  <span class="text-black/20 text-[0.7rem]">|</span>
+  <span class="text-black/20 text-sm md:text-[0.7rem]">|</span>
   <button
     (click)="setLang('es')"
     [class]="currentLang === 'es'
-      ? 'text-[0.7rem] font-semibold text-black cursor-pointer border-none bg-transparent'
-      : 'text-[0.7rem] font-normal text-black/40 hover:text-black/70 cursor-pointer border-none bg-transparent transition-colors'">
+      ? 'text-sm md:text-[0.7rem] font-semibold text-black cursor-pointer border-none bg-transparent'
+      : 'text-sm md:text-[0.7rem] font-normal text-black/40 hover:text-black/70 cursor-pointer border-none bg-transparent transition-colors'">
     ES
   </button>
 </div>
